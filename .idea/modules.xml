@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TRAIN_RUNNING_TRACK.iml" filepath="$PROJECT_DIR$/.idea/modules/TRAIN_RUNNING_TRACK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TRAIN_RUNNING_TRACK.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TRAIN_RUNNING_TRACK.app.iml" />
+    </modules>
+  </component>
+</project>
