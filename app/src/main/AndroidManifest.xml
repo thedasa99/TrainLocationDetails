@@ -5,20 +5,23 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.TRAINRUNNINGTRACK"
-           >
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainWebview"
+            android:label="@string/title_activity_main_webview"
+            android:theme="@style/Theme.TRAINRUNNINGTRACK.NoActionBar"></activity>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-9112953297416111~5840187608" />
+
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
@@ -46,10 +49,8 @@
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
             </intent-filter>
-        </activity> <!-- Include the AdActivity configChanges and theme. -->
-
+        </activity>
     </application>
 
 </manifest>

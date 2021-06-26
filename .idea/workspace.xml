@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
@@ -18,14 +21,51 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d389503-cfd5-4293-9f11-bf20c532989a" name="Default Changelist" comment="build 1" />
+    <list default="true" id="6d389503-cfd5-4293-9f11-bf20c532989a" name="Default Changelist" comment="build 1">
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/First2Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainWebview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/Second2Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_webview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main_webview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/BannerAdListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/BannerAdListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/InterstitialSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/InterstitialSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@18e94a26]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -111,12 +151,12 @@
     <property name="ApkExportedModule" value="TRAIN_RUNNING_TRACK.app" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@18e94a26" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-25T13:46:56.555425Z" />
-    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/../../assets/TrainRunningTrack" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/../../assets/where is my fright train" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../assets/where is my fright train" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -124,6 +164,9 @@
   </component>
   <component name="RecentsManager">
     <key name="android.template.984236231">
+      <recent name="com.prajwal.hc.trainrunningtrack" />
+    </key>
+    <key name="android.template.-819396165">
       <recent name="com.prajwal.hc.trainrunningtrack" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -225,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624644789513</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="build 1">
+      <created>1624647352353</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624647352353</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,10 +341,10 @@
       <screen x="0" y="0" width="1366" height="726" />
     </state>
     <state x="171" y="0" width="1014" height="720" key="CommitChangelistDialog2/0.0.1366.726@0.0.1366.726" timestamp="1624646834090" />
-    <state x="345" y="117" width="424" height="478" key="FileChooserDialogImpl" timestamp="1624646812465">
+    <state x="345" y="117" width="424" height="478" key="FileChooserDialogImpl" timestamp="1624700877968">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state x="345" y="117" width="424" height="478" key="FileChooserDialogImpl/0.0.1366.726@0.0.1366.726" timestamp="1624646812465" />
+    <state x="345" y="117" width="424" height="478" key="FileChooserDialogImpl/0.0.1366.726@0.0.1366.726" timestamp="1624700877968" />
     <state x="496" y="284" key="Github.CreateGistDialog" timestamp="1624645011077">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
@@ -303,14 +353,30 @@
       <screen x="0" y="0" width="1366" height="726" />
     </state>
     <state x="513" y="125" key="Github.ShareDialog/0.0.1366.726@0.0.1366.726" timestamp="1624646615937" />
+    <state width="662" height="283" key="GridCell.Tab.0.bottom" timestamp="1624699942727">
+      <screen x="0" y="0" width="1366" height="726" />
+    </state>
+    <state width="662" height="283" key="GridCell.Tab.0.bottom/0.0.1366.726@0.0.1366.726" timestamp="1624699942727" />
+    <state width="662" height="283" key="GridCell.Tab.0.center" timestamp="1624699942727">
+      <screen x="0" y="0" width="1366" height="726" />
+    </state>
+    <state width="662" height="283" key="GridCell.Tab.0.center/0.0.1366.726@0.0.1366.726" timestamp="1624699942726" />
+    <state width="662" height="283" key="GridCell.Tab.0.left" timestamp="1624699942726">
+      <screen x="0" y="0" width="1366" height="726" />
+    </state>
+    <state width="662" height="283" key="GridCell.Tab.0.left/0.0.1366.726@0.0.1366.726" timestamp="1624699942726" />
+    <state width="662" height="283" key="GridCell.Tab.0.right" timestamp="1624699942727">
+      <screen x="0" y="0" width="1366" height="726" />
+    </state>
+    <state width="662" height="283" key="GridCell.Tab.0.right/0.0.1366.726@0.0.1366.726" timestamp="1624699942727" />
     <state x="565" y="280" width="226" height="159" key="VCS.EditChangelistDialog" timestamp="1624646187713">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
     <state x="565" y="280" width="226" height="159" key="VCS.EditChangelistDialog/0.0.1366.726@0.0.1366.726" timestamp="1624646187713" />
-    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1624646738083">
+    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1624647382304">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.726@0.0.1366.726" timestamp="1624646738083" />
+    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.726@0.0.1366.726" timestamp="1624647382304" />
     <state x="492" y="279" width="372" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624646838648">
       <screen x="0" y="0" width="1366" height="726" />
     </state>

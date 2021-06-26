@@ -24,10 +24,14 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
    /**
     * The interstitial ad unit id. Replace with your ad unit to test your interstitials.
     * ca-app-pub-9112953297416111/2422415585
+    *
+    *  where is my fright train
+    * appid:ca-app-pub-9112953297416111~5840187608
     */
 
 
    private static final String adunittest = "ca-app-pub-3940256099942544/1033173712";
+   //tld my train
    private static final String AD_UNIT_ID = "ca-app-pub-9112953297416111/6554503474";
 
    /**
@@ -55,7 +59,7 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
     public  void loadIntersitialads (Context con, Activity mA){
 
       AdRequest adRequest = new AdRequest.Builder().build();
-      InterstitialAd.load(mA,"cca-app-pub-9112953297416111/6554503474", adRequest, new InterstitialAdLoadCallback() {
+      InterstitialAd.load(mA,"ca-app-pub-9112953297416111/6554503474", adRequest, new InterstitialAdLoadCallback() {
         @Override
         public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
           // The mInterstitialAd reference will be null until

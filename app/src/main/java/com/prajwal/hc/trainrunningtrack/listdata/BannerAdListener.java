@@ -28,10 +28,11 @@ ad id openads:ca-app-pub-9112953297416111/9697625845
 
 
     private static final String APP_ID ="ca-app-pub-9112953297416111~5840187608";
+
     // private static final String AD_UNIT_ID = "ca-app-pub-9112953297416111/9945682383";
     private static final String adunitTEST ="ca-app-pub-3940256099942544/6300978111";
 
-    private static final String AD_UNIT_ID ="ca-app-pub-9112953297416111/9697625845";
+    private static final String AD_UNIT_ID ="ca-app-pub-9112953297416111/8467965340";
  /** The view to show the ad. */
  static private AdView adView;
 

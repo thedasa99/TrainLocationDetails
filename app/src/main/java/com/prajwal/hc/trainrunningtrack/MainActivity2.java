@@ -3,6 +3,7 @@ package com.prajwal.hc.trainrunningtrack;
 import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.gms.ads.AdRequest;
@@ -36,6 +37,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.prajwal.hc.trainrunningtrack.databinding.ActivityMain2Binding;
 import com.prajwal.hc.trainrunningtrack.listdata.AppOpenManager;
+import com.prajwal.hc.trainrunningtrack.listdata.BannerAdListener;
 import com.prajwal.hc.trainrunningtrack.listdata.InterstitialSample;
 
 import java.io.InputStream;
@@ -85,7 +87,7 @@ String TAG="TLD";
                 new OnInitializationCompleteListener() {
                     @Override
                     public void onInitializationComplete(InitializationStatus initializationStatus) {
-                        appOpenManager = new AppOpenManager(myapplication);
+
 
                     }
                 });
@@ -134,13 +136,24 @@ String TAG="TLD";
             String html = "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
             myWebView.loadData(html, "text/html", "utf-8");
             // String url = i.getStringExtra("url");
-            myWebView.loadUrl( url);
+           // myWebView.loadUrl( url);
 
 
         }catch(Exception e){
 
         }
 
+        BannerAdListener. display_banner(   context,   myActivity) ;
+
+        Button resetbutton=(Button)findViewById(R.id.buttonreset);
+        resetbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+
+                sttncodeText .setText("");
+                locodnoText.setText("");
+            }
+        } );
 
         Button Goclick=(Button)findViewById(R.id.button);
         Goclick.setOnClickListener(new View.OnClickListener() {
@@ -148,8 +161,17 @@ String TAG="TLD";
             @Override
             public void onClick(View arg0) {
 
-                callgetdata(   );
+               // callgetdata(   );
+                 Direction=String.valueOf(spinner1.getSelectedItem());
+                  sttncode=String.valueOf(sttncodeText.getText()).trim();
+                   Locono= String.valueOf(locodnoText.getText()).trim();
 
+                Intent i = new Intent(MainActivity2.this, MainWebview.class);
+
+                i.putExtra("sttncode", sttncode);
+                i.putExtra("Direction", Direction);
+                i.putExtra("Locono", Locono);
+                startActivity(i);
 
 
             }
@@ -177,9 +199,9 @@ String TAG="TLD";
         //tagstn="TAGSTN",tagloco="TAGLOCONO",tagdirection="TAGDIRECTION";
 
 
-        Direction=String.valueOf(spinner1.getSelectedItem());
-        sttncode=String.valueOf(sttncodeText.getText()).trim();
-          Locono= String.valueOf(locodnoText.getText()).trim();
+     //   Direction=String.valueOf(spinner1.getSelectedItem());
+     //   sttncode=String.valueOf(sttncodeText.getText()).trim();
+     //     Locono= String.valueOf(locodnoText.getText()).trim();
 
 
         if(Locono.isEmpty()) {
@@ -220,7 +242,7 @@ String TAG="TLD";
 
             @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (event.getAction() == KeyEvent.ACTION_DOWN) {
+       /* if (event.getAction() == KeyEvent.ACTION_DOWN) {
             switch (keyCode) {
                 case KeyEvent.KEYCODE_BACK:
                     if (myWebView.canGoBack()) {
@@ -232,7 +254,7 @@ String TAG="TLD";
                     return true;
             }
 
-        }
+        }*/
         return super.onKeyDown(keyCode, event);
     }
 }

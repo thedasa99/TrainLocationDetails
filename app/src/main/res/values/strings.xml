@@ -10,8 +10,8 @@
         This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
         For more information, see https://support.google.com/admob/answer/3052638
     <!- -->
-    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="title_activity_main2"> TRAIN LOCATION DETAILS</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-9112953297416111/6554503474</string>
+    <string name="title_activity_main2">Where is My Fright Train </string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -27,4 +27,5 @@
         <item>UP</item>
         <item>DOWN</item>
     </string-array>
+    <string name="title_activity_main_webview">TRAIN LOCATION DETAILS</string>
 </resources>
