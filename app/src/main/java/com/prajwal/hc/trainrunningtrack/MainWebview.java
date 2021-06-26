@@ -189,9 +189,9 @@ public class MainWebview extends AppCompatActivity {
                     } else {
 
                         Random r = new Random();
-                        int random = r.nextInt( 9);
+                        int random = r.nextInt( 13);
 
-                      if(random%5==0)
+                      if(random%7==0)
                         myIntersitital.showInterstitial(context,myActivity);
 
                         finish();

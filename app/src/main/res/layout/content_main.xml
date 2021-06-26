@@ -92,7 +92,9 @@
                     android:layout_marginEnd="8dp"
 
                     android:hint="Enter code"
-                    android:textSize="20sp" />
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
 
@@ -134,10 +136,12 @@
                 <Spinner
                     android:id="@+id/spinner1"
                     android:layout_width="match_parent"
-                    android:layout_height="37dp"
-
+                    android:layout_height="50dp"
                     android:dropDownWidth="wrap_content"
-                    android:entries="@array/direction" />
+                    android:entries="@array/direction"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>
@@ -179,7 +183,9 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
                     android:hint="Enter no"
-                    android:textSize="20sp" />
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
 
