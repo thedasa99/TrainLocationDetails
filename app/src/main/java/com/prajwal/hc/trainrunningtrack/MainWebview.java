@@ -30,6 +30,7 @@ import com.prajwal.hc.trainrunningtrack.listdata.AppOpenManager;
 import com.prajwal.hc.trainrunningtrack.listdata.InterstitialSample;
 
 import java.io.InputStream;
+import java.util.Random;
 
 public class MainWebview extends AppCompatActivity {
 
@@ -186,7 +187,13 @@ public class MainWebview extends AppCompatActivity {
                     if (myWebView.canGoBack()) {
                         myWebView.goBack();
                     } else {
+
+                        Random r = new Random();
+                        int random = r.nextInt( 9);
+
+                      if(random%5==0)
                         myIntersitital.showInterstitial(context,myActivity);
+
                         finish();
                     }
                     return true;

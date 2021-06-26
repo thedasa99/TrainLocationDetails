@@ -85,7 +85,8 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
    public void showInterstitial( Context con,Activity mA) {
 
      // Show the ad if it's ready. Otherwise toast and restart the game.
-     if (mInterstitialAd != null) {
+
+     if (mInterstitialAd != null ) {
        mInterstitialAd.show(mA);
      } else {
        //Toast.makeText(mA, "Ad did not load", Toast.LENGTH_SHORT).show();
