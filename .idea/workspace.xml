@@ -21,16 +21,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d389503-cfd5-4293-9f11-bf20c532989a" name="Default Changelist" comment="build 1">
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/First2Fragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainWebview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/Second2Fragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_webview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main_webview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph2.xml" afterDir="false" />
+    <list default="true" id="6d389503-cfd5-4293-9f11-bf20c532989a" name="Default Changelist" comment="build 2">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rowcolor3pre.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -41,22 +33,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivity2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/BannerAdListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/BannerAdListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/InterstitialSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/InterstitialSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +86,7 @@
     </option>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../android_digitalsignature/Nanusignature" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../android_digitalsignature/historycreationsUploadkey" />
     <option name="KEY_ALIAS" value="dasa" />
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
@@ -156,7 +135,7 @@
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../assets/where is my fright train" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../android_digitalsignature/historycreationsUploadkey" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -166,16 +145,17 @@
     <key name="android.template.984236231">
       <recent name="com.prajwal.hc.trainrunningtrack" />
     </key>
-    <key name="android.template.-819396165">
-      <recent name="com.prajwal.hc.trainrunningtrack" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/assets" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.prajwal.hc.trainrunningtrack.listdata" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/assets" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata" />
+    <key name="android.template.-819396165">
+      <recent name="com.prajwal.hc.trainrunningtrack" />
     </key>
   </component>
   <component name="RunManager">
@@ -275,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624647352353</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="build 1">
+      <created>1624701156511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624701156511</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,10 +328,10 @@
       <screen x="0" y="0" width="1366" height="726" />
     </state>
     <state x="171" y="0" width="1014" height="720" key="CommitChangelistDialog2/0.0.1366.726@0.0.1366.726" timestamp="1624646834090" />
-    <state x="345" y="117" width="424" height="478" key="FileChooserDialogImpl" timestamp="1624700877968">
+    <state x="345" y="117" width="424" height="478" key="FileChooserDialogImpl" timestamp="1624708725031">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state x="345" y="117" width="424" height="478" key="FileChooserDialogImpl/0.0.1366.726@0.0.1366.726" timestamp="1624700877968" />
+    <state x="345" y="117" width="424" height="478" key="FileChooserDialogImpl/0.0.1366.726@0.0.1366.726" timestamp="1624708725031" />
     <state x="496" y="284" key="Github.CreateGistDialog" timestamp="1624645011077">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
@@ -353,30 +340,30 @@
       <screen x="0" y="0" width="1366" height="726" />
     </state>
     <state x="513" y="125" key="Github.ShareDialog/0.0.1366.726@0.0.1366.726" timestamp="1624646615937" />
-    <state width="662" height="283" key="GridCell.Tab.0.bottom" timestamp="1624699942727">
+    <state width="1324" height="19" key="GridCell.Tab.0.bottom" timestamp="1624708391464">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state width="662" height="283" key="GridCell.Tab.0.bottom/0.0.1366.726@0.0.1366.726" timestamp="1624699942727" />
-    <state width="662" height="283" key="GridCell.Tab.0.center" timestamp="1624699942727">
+    <state width="1324" height="19" key="GridCell.Tab.0.bottom/0.0.1366.726@0.0.1366.726" timestamp="1624708391464" />
+    <state width="1324" height="19" key="GridCell.Tab.0.center" timestamp="1624708391464">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state width="662" height="283" key="GridCell.Tab.0.center/0.0.1366.726@0.0.1366.726" timestamp="1624699942726" />
-    <state width="662" height="283" key="GridCell.Tab.0.left" timestamp="1624699942726">
+    <state width="1324" height="19" key="GridCell.Tab.0.center/0.0.1366.726@0.0.1366.726" timestamp="1624708391464" />
+    <state width="1324" height="19" key="GridCell.Tab.0.left" timestamp="1624708391463">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state width="662" height="283" key="GridCell.Tab.0.left/0.0.1366.726@0.0.1366.726" timestamp="1624699942726" />
-    <state width="662" height="283" key="GridCell.Tab.0.right" timestamp="1624699942727">
+    <state width="1324" height="19" key="GridCell.Tab.0.left/0.0.1366.726@0.0.1366.726" timestamp="1624708391463" />
+    <state width="1324" height="19" key="GridCell.Tab.0.right" timestamp="1624708391464">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state width="662" height="283" key="GridCell.Tab.0.right/0.0.1366.726@0.0.1366.726" timestamp="1624699942727" />
+    <state width="1324" height="19" key="GridCell.Tab.0.right/0.0.1366.726@0.0.1366.726" timestamp="1624708391464" />
     <state x="565" y="280" width="226" height="159" key="VCS.EditChangelistDialog" timestamp="1624646187713">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
     <state x="565" y="280" width="226" height="159" key="VCS.EditChangelistDialog/0.0.1366.726@0.0.1366.726" timestamp="1624646187713" />
-    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1624647382304">
+    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1624701168263">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.726@0.0.1366.726" timestamp="1624647382304" />
+    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.726@0.0.1366.726" timestamp="1624701168263" />
     <state x="492" y="279" width="372" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624646838648">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
