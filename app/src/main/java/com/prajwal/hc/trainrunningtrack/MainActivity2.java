@@ -109,12 +109,13 @@ String TAG="TLD";
 */
 
         spinner1 = (Spinner) findViewById(R.id.spinner1);
-            myWebView = (WebView) findViewById(R.id.webview1);
+
         sttncodeText=(TextView)  findViewById(R.id.stntext);
         locodnoText=(TextView)  findViewById(R.id.locotext);
 
-
+/*  myWebView = (WebView) findViewById(R.id.webview1);
         try{
+
             myWebView.setWebViewClient(new   WebViewClient() {
                 public boolean shouldOverrideUrlLoading(WebView view, String url) {
                     view.loadUrl(url);
@@ -142,6 +143,8 @@ String TAG="TLD";
         }catch(Exception e){
 
         }
+        */
+
 
         BannerAdListener. display_banner(   context,   myActivity) ;
 
@@ -207,7 +210,7 @@ String TAG="TLD";
         if(Locono.isEmpty()) {
             StnURL = StnURL.replace("TAGSTN", sttncode);
             StnURL = StnURL.replace("TAGDIRECTION", Direction);
-            myWebView.loadUrl(StnURL);
+          //  myWebView.loadUrl(StnURL);
          //   Toast.makeText(MainActivity2.this,     ""+StnURL,            Toast.LENGTH_SHORT).show();
         }
    else {
@@ -215,9 +218,10 @@ String TAG="TLD";
             LOCOURL = LOCOURL.replace("TAGDIRECTION", Direction);
             LOCOURL = LOCOURL.replace("TAGLOCO", Locono);
           //  Toast.makeText(MainActivity2.this,    ""+LOCOURL,     Toast.LENGTH_SHORT).show();
-            myWebView.loadUrl(LOCOURL);
+            //myWebView.loadUrl(LOCOURL);
         }
     }
+    /*
     private void injectCSS() {
         try {
             InputStream inputStream = getAssets().open("bootstrap.css");
@@ -237,6 +241,8 @@ String TAG="TLD";
             e.printStackTrace();
         }
     }
+
+     */
 
 
 

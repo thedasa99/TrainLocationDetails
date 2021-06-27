@@ -21,9 +21,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d389503-cfd5-4293-9f11-bf20c532989a" name="Default Changelist" comment="build v2 ,hint, name change,&#10;reduce ads">
+    <list default="true" id="6d389503-cfd5-4293-9f11-bf20c532989a" name="Default Changelist" comment="build v3 ,hint, name change,&#10;reduce ads">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivity2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainWebview.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainWebview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
     </list>
@@ -265,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624714020729</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="build v3 ,hint, name change,&#10;reduce ads">
+      <created>1624717072555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624717072555</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +329,8 @@
     <MESSAGE value="build 1" />
     <MESSAGE value="build v1 ,hint, name change," />
     <MESSAGE value="build v2 ,hint, name change,&#10;reduce ads" />
-    <option name="LAST_COMMIT_MESSAGE" value="build v2 ,hint, name change,&#10;reduce ads" />
+    <MESSAGE value="build v3 ,hint, name change,&#10;reduce ads" />
+    <option name="LAST_COMMIT_MESSAGE" value="build v3 ,hint, name change,&#10;reduce ads" />
   </component>
   <component name="WindowStateProjectService">
     <state x="415" y="198" width="525" height="323" key="#Notifications" timestamp="1624646789482">

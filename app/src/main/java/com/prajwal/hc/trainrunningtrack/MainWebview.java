@@ -100,13 +100,20 @@ public class MainWebview extends AppCompatActivity {
                     view.getSettings().setBuiltInZoomControls(true);
                     view.getSettings().setSupportZoom(true);
                     view.getSettings().setJavaScriptEnabled(true);
-                    /*myWebView.loadUrl("javascript:(function() { " +
-                            "document.getElementsByTagName('table')[0].style.display='none'; " +
-                            "})()");
-                            */
 
+
+
+//document.getElementsByTagName('form')[0].style.display="none";
+//childNodes.getElementsByTagName(table)[0]
                   //  myWebView.setInitialScale(200);
                       injectCSS();
+
+                    myWebView.loadUrl("javascript:(function() { " +
+                            "var list = document.getElementsByTagName(\"form\")[0];"+
+                            " var t2=list.getElementsByTagName(\"table\")[1] ;"+
+                            " t2.getElementsByTagName(\"tr\")[1].style.display=\"none\";"+
+                            " t2.getElementsByTagName(\"tr\")[2].style.display=\"none\";"+
+                            "})()");
 
                 }
             });
