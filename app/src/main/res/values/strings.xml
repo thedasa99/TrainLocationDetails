@@ -21,7 +21,11 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
-
+    <string name="cautionmsg"> Mobile should NOT be used during RUN</string>
+    <string name="cautiontitle">  CAUTION </string>
+    <string name="aboutnotes">  Where is My Fright Train -Application to Track Fright Trains
+    This is a Support application for website  of Fright Trains monitoring for work.
+   </string>
     <string-array name="direction">
         <item>ALL</item>
         <item>UP</item>

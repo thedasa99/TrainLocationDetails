@@ -13,10 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TRAINRUNNINGTRACK"
         android:usesCleartextTraffic="true">
+        <activity android:name=".MainAboutpage"></activity>
         <activity
             android:name=".MainWebview"
             android:label="@string/title_activity_main_webview"
-            android:theme="@style/Theme.TRAINRUNNINGTRACK.NoActionBar"></activity>
+            android:theme="@style/Theme.TRAINRUNNINGTRACK.NoActionBar" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

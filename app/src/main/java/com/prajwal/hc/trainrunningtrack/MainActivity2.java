@@ -2,6 +2,7 @@ package com.prajwal.hc.trainrunningtrack;
 
 import android.app.Activity;
 import android.app.Application;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -72,6 +73,10 @@ String TAG="TLD";
     private InterstitialAd mInterstitialAd;
     InterstitialSample myIntersitital=new InterstitialSample();
 
+      Dialog customdialogcatiom ;
+    // Include dialog.xml file
+    int width  ;
+    int height ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,22 +96,33 @@ String TAG="TLD";
 
                     }
                 });
+
+        // DIALOG BOX CAUTION
+        customdialogcatiom = new Dialog(myActivity);
+        customdialogcatiom.setContentView(R.layout.cautiondialog);
+        customdialogcatiom.setTitle("CAUTION");
+        customdialogcatiom.show();
+          width = (int)(getResources().getDisplayMetrics().widthPixels*0.90);
+          height = (int)(getResources().getDisplayMetrics().heightPixels*0.60);
+        customdialogcatiom.getWindow().setLayout(width, height);
+
+        Button declineButton = (Button) customdialogcatiom.findViewById(R.id.buttonOk);
+        // if decline button is clicked, close the custom dialog
+        declineButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Close dialog
+                customdialogcatiom.dismiss();
+            }
+        });
+        ////////
+
         myIntersitital.loadIntersitialads(context,myActivity);
 
 
 
-      /*  NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
-        binding.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-*/
+
 
         spinner1 = (Spinner) findViewById(R.id.spinner1);
 
@@ -180,8 +196,24 @@ String TAG="TLD";
             }
             } );
 
+        Button buttioncation=(Button)findViewById(R.id.buttoncaution);
+        buttioncation.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View arg0) {
+                customdialogcatiom.show();
+            }
+        } );
 
+        Button buttonabout=(Button)findViewById(R.id.buttonabout);
+        buttonabout.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Intent i = new Intent(MainActivity2.this, MainAboutpage.class);
+                startActivity(i);
+            }
+        } );
 
     }
 /*

@@ -22,4 +22,10 @@
     <style name="Theme.TRAINRUNNINGTRACK.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.TRAINRUNNINGTRACK.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+
 </resources>
