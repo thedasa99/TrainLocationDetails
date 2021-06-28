@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Where is My Fright Train</string>
+    <string name="app_name">Where is My Freight Train</string>
     <string name="action_settings">Settings</string>
 
 
@@ -11,7 +11,7 @@
         For more information, see https://support.google.com/admob/answer/3052638
     <!- -->
     <string name="interstitial_ad_unit_id">ca-app-pub-9112953297416111/6554503474</string>
-    <string name="title_activity_main2">Where is My Fright Train </string>
+    <string name="title_activity_main2">Where is My Freight Train </string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -23,8 +23,8 @@
 
     <string name="cautionmsg"> Mobile should NOT be used during RUN</string>
     <string name="cautiontitle">  CAUTION </string>
-    <string name="aboutnotes">  Where is My Fright Train -Application to Track Fright Trains
-    This is a Support application for website  of Fright Trains monitoring for work.
+    <string name="aboutnotes">  Where is My Freight Train -Application to Track Freight Trains
+    This is a Support application for website  of Freight Trains monitoring for work.
    </string>
     <string-array name="direction">
         <item>ALL</item>

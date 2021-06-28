@@ -215,6 +215,26 @@ String TAG="TLD";
             }
         } );
 
+        Button buttonabpc=(Button)findViewById(R.id.buttonbpc);
+        buttonabpc.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Intent i = new Intent(MainActivity2.this, MainActivityBPCRules.class);
+                startActivity(i);
+            }
+        } );
+
+        Button buttongr=(Button)findViewById(R.id.buttonagr);
+        buttongr.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Intent i = new Intent(MainActivity2.this, MainActivityGrspage.class);
+                startActivity(i);
+            }
+        } );
+
     }
 /*
     @Override

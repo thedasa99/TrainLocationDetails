@@ -21,13 +21,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d389503-cfd5-4293-9f11-bf20c532989a" name="Default Changelist" comment="build v3 ,hint, name change,&#10;reduce ads">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainAboutpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_success.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rowcolor1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rowcolorwhite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_aboutpage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/cautiondialog.xml" afterDir="false" />
+    <list default="true" id="6d389503-cfd5-4293-9f11-bf20c532989a" name="Default Changelist" comment="build v5 , &#10;caution&#10;about pages added">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivityBPCRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivityGrspage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainNotesDisplaypage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/ItemListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/ItemListAdapterGr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata/itemadaptertemple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/itemlistbackground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rowcolor4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_bpcrules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_grspage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_notes_displaypage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/itemgr.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -39,15 +47,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/MainActivity2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rowcolor3pre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rowcolor3pre.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rowcolor1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rowcolor1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_aboutpage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_aboutpage.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,24 +159,27 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.984236231">
-      <recent name="com.prajwal.hc.trainrunningtrack" />
-    </key>
-    <key name="android.template.-1305762731">
+    <key name="android.template.-14860865">
       <recent name="com.prajwal.hc.trainrunningtrack" />
     </key>
     <key name="android.template.-819396165">
       <recent name="com.prajwal.hc.trainrunningtrack" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.prajwal.hc.trainrunningtrack" />
-      <recent name="com.prajwal.hc.trainrunningtrack.listdata" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/assets" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/prajwal/hc/trainrunningtrack/listdata" />
+      <recent name="$PROJECT_DIR$/app/src/main/assets" />
+    </key>
+    <key name="android.template.-1305762731">
+      <recent name="com.prajwal.hc.trainrunningtrack" />
+    </key>
+    <key name="android.template.984236231">
+      <recent name="com.prajwal.hc.trainrunningtrack" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.prajwal.hc.trainrunningtrack.listdata" />
+      <recent name="com.prajwal.hc.trainrunningtrack" />
     </key>
   </component>
   <component name="RunManager">
@@ -305,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624768571271</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="build v5 , &#10;caution&#10;about pages added">
+      <created>1624796669078</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624796669078</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +371,8 @@
     <MESSAGE value="build v1 ,hint, name change," />
     <MESSAGE value="build v2 ,hint, name change,&#10;reduce ads" />
     <MESSAGE value="build v3 ,hint, name change,&#10;reduce ads" />
-    <option name="LAST_COMMIT_MESSAGE" value="build v3 ,hint, name change,&#10;reduce ads" />
+    <MESSAGE value="build v5 , &#10;caution&#10;about pages added" />
+    <option name="LAST_COMMIT_MESSAGE" value="build v5 , &#10;caution&#10;about pages added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="415" y="198" width="525" height="323" key="#Notifications" timestamp="1624646789482">
@@ -386,33 +403,37 @@
       <screen x="0" y="0" width="1366" height="726" />
     </state>
     <state x="513" y="125" key="Github.ShareDialog/0.0.1366.726@0.0.1366.726" timestamp="1624646615937" />
-    <state width="1324" height="19" key="GridCell.Tab.0.bottom" timestamp="1624708391464">
+    <state width="1324" height="57" key="GridCell.Tab.0.bottom" timestamp="1624881697432">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state width="1324" height="19" key="GridCell.Tab.0.bottom/0.0.1366.726@0.0.1366.726" timestamp="1624708391464" />
-    <state width="1324" height="19" key="GridCell.Tab.0.center" timestamp="1624708391464">
+    <state width="1324" height="57" key="GridCell.Tab.0.bottom/0.0.1366.726@0.0.1366.726" timestamp="1624881697432" />
+    <state width="1324" height="57" key="GridCell.Tab.0.center" timestamp="1624881697432">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state width="1324" height="19" key="GridCell.Tab.0.center/0.0.1366.726@0.0.1366.726" timestamp="1624708391464" />
-    <state width="1324" height="19" key="GridCell.Tab.0.left" timestamp="1624708391463">
+    <state width="1324" height="57" key="GridCell.Tab.0.center/0.0.1366.726@0.0.1366.726" timestamp="1624881697432" />
+    <state width="1324" height="57" key="GridCell.Tab.0.left" timestamp="1624881697431">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state width="1324" height="19" key="GridCell.Tab.0.left/0.0.1366.726@0.0.1366.726" timestamp="1624708391463" />
-    <state width="1324" height="19" key="GridCell.Tab.0.right" timestamp="1624708391464">
+    <state width="1324" height="57" key="GridCell.Tab.0.left/0.0.1366.726@0.0.1366.726" timestamp="1624881697431" />
+    <state width="1324" height="57" key="GridCell.Tab.0.right" timestamp="1624881697432">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state width="1324" height="19" key="GridCell.Tab.0.right/0.0.1366.726@0.0.1366.726" timestamp="1624708391464" />
+    <state width="1324" height="57" key="GridCell.Tab.0.right/0.0.1366.726@0.0.1366.726" timestamp="1624881697432" />
     <state x="565" y="280" width="226" height="159" key="VCS.EditChangelistDialog" timestamp="1624646187713">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
     <state x="565" y="280" width="226" height="159" key="VCS.EditChangelistDialog/0.0.1366.726@0.0.1366.726" timestamp="1624646187713" />
-    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1624768576185">
+    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1624796745946">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
-    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.726@0.0.1366.726" timestamp="1624768576185" />
+    <state x="278" y="98" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.726@0.0.1366.726" timestamp="1624796745946" />
     <state x="492" y="279" width="372" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624646838648">
       <screen x="0" y="0" width="1366" height="726" />
     </state>
     <state x="492" y="279" width="372" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.726@0.0.1366.726" timestamp="1624646838648" />
+    <state x="346" y="47" width="672" height="678" key="search.everywhere.popup" timestamp="1624877127521">
+      <screen x="0" y="0" width="1366" height="726" />
+    </state>
+    <state x="346" y="47" width="672" height="678" key="search.everywhere.popup/0.0.1366.726@0.0.1366.726" timestamp="1624877127521" />
   </component>
 </project>

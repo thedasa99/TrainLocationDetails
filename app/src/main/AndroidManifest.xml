@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TRAINRUNNINGTRACK"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MainAboutpage"></activity>
+        <activity android:name=".MainNotesDisplaypage"></activity>
+        <activity android:name=".MainActivityGrspage" />
+        <activity android:name=".MainActivityBPCRules" />
+        <activity android:name=".MainAboutpage" />
         <activity
             android:name=".MainWebview"
             android:label="@string/title_activity_main_webview"
