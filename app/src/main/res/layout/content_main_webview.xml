@@ -10,5 +10,6 @@
         android:id="@+id/webview2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:fadeScrollbars="false"
         android:layout_margin="5dp" />
 </LinearLayout>

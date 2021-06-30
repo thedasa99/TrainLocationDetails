@@ -103,7 +103,7 @@ String TAG="TLD";
         customdialogcatiom.setTitle("CAUTION");
         customdialogcatiom.show();
           width = (int)(getResources().getDisplayMetrics().widthPixels*0.90);
-          height = (int)(getResources().getDisplayMetrics().heightPixels*0.60);
+          height = (int)(getResources().getDisplayMetrics().heightPixels*0.50);
         customdialogcatiom.getWindow().setLayout(width, height);
 
         Button declineButton = (Button) customdialogcatiom.findViewById(R.id.buttonOk);

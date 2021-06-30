@@ -8,19 +8,32 @@
     android:orientation="vertical"
     >
 
-    <WebView
-        android:id="@+id/webview1"
+    <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="5dp">
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="#37477E"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/webview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:layout_margin="5dp">
 
 
-    </WebView>
+        </WebView>
+    </LinearLayout>
+
     <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#37477E"
+        android:layout_weight="1"
         android:gravity="center|center_horizontal"
         android:orientation="vertical">
 
