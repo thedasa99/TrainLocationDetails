@@ -39,6 +39,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:text="  SOUTH WESTERN RAILWAY  "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text=" Where is My Freight Train -Application to Track Freight Trains
     This is Third Party application .
     Support application for website  of Freight Trains monitoring for work.   "

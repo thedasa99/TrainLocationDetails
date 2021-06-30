@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="8dp"
             android:layout_weight="0"
             android:text="WHERE IS MY "
@@ -260,7 +260,7 @@
                     android:layout_height="wrap_content"
 
                     android:text="caution"
-                    android:textSize="10dp"
+                    android:textSize="8dp"
                     android:textStyle="bold"
                     app:backgroundTint="#37477E" />
             </LinearLayout>
@@ -278,7 +278,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="About"
-                    android:textSize="10dp"
+                    android:textSize="8dp"
                     android:textStyle="bold"
                     app:backgroundTint="#37477E" />
             </LinearLayout>
@@ -302,7 +302,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_weight="0"
-            android:text="NOTE: Instruction "
+            android:text="NOTES : Instruction "
             android:textColor="#fff"
             android:textSize="25sp" />
     </LinearLayout>
@@ -329,8 +329,8 @@
 
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="BPC"
-                android:textSize="20dp"
+                android:text=" BPC "
+                android:textSize="22dp"
                 android:textStyle="bold"
                 app:backgroundTint="#22273A" />
         </LinearLayout>
@@ -349,8 +349,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="GR's "
-                android:textSize="20dp"
+                android:text=" GR's "
+                android:textSize="22dp"
                 android:textStyle="bold"
                 app:backgroundTint="#22273A" />
         </LinearLayout>

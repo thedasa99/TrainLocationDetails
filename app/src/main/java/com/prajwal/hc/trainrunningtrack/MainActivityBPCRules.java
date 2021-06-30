@@ -37,42 +37,42 @@ public class MainActivityBPCRules extends AppCompatActivity {
                 Item chapter1= new Item(id);
                 chapter1.setCaption(" 1.Intensive BPC   ");
                 chapter1.setDiscription("" );
-                chapter1.setUrl("file:///android_asset/bpc/"+id+".html");
+                chapter1.setUrl("file:///android_asset/bpc/bp"+id+".htm");
                 Itemlist.add(chapter1);
 
              id=id+1;
             Item chapter2= new Item(id);
             chapter2.setCaption(" 2.Intensive : End to End   ");
             chapter2.setDiscription("" );
-            chapter2.setUrl("file:///android_asset/bpc/"+id+".html");
+            chapter2.setUrl("file:///android_asset/bpc/bp"+id+".htm");
             Itemlist.add(chapter2);
 
             id=id+1;
             Item chapter3= new Item(id);
             chapter3.setCaption(" 3.Intensive: Green Color   ");
             chapter3.setDiscription("" );
-            chapter3.setUrl("file:///android_asset/bpc/"+id+".html");
+            chapter3.setUrl("file:///android_asset/bpc/bp"+id+".htm");
             Itemlist.add(chapter3);
 
             id=id+1;
             Item chapter4= new Item(id);
             chapter4.setCaption(" 4. Premium BPC ");
             chapter4.setDiscription("" );
-            chapter4.setUrl("file:///android_asset/bpc/"+id+".html");
+            chapter4.setUrl("file:///android_asset/bpc/bp"+id+".htm");
             Itemlist.add(chapter4);
 
             id=id+1;
             Item chapter5= new Item(id);
             chapter5.setCaption(" 5. Premium : End to End  ");
             chapter5.setDiscription("" );
-            chapter5.setUrl("file:///android_asset/bpc/"+id+".html");
+            chapter5.setUrl("file:///android_asset/bpc/bp"+id+".htm");
             Itemlist.add(chapter5);
 
             id=id+1;
             Item chapter6= new Item(id);
             chapter6.setCaption(" 6. Premium : Green Color ");
             chapter6.setDiscription("" );
-            chapter6.setUrl("file:///android_asset/bpc/"+id+".html");
+            chapter6.setUrl("file:///android_asset/bpc/bp"+id+".htm");
             Itemlist.add(chapter6);
 
 
@@ -80,7 +80,7 @@ public class MainActivityBPCRules extends AppCompatActivity {
             Item chapter7= new Item(id);
             chapter7.setCaption(" 7. Closed Circuit BPC ");
             chapter7.setDiscription("" );
-            chapter7.setUrl("file:///android_asset/bpc/"+id+".html");
+            chapter7.setUrl("file:///android_asset/bpc/bp"+id+".htm");
             Itemlist.add(chapter7);
 
 
@@ -88,7 +88,7 @@ public class MainActivityBPCRules extends AppCompatActivity {
             Item chapter8= new Item(id);
             chapter8.setCaption(" 8. Closed Circuit :Yellow  Color");
             chapter8.setDiscription("" );
-            chapter8.setUrl("file:///android_asset/bpc/"+id+".html");
+            chapter8.setUrl("file:///android_asset/bpc/bp"+id+".htm");
             Itemlist.add(chapter8);
 
 
@@ -96,14 +96,14 @@ public class MainActivityBPCRules extends AppCompatActivity {
             Item chapter9= new Item(id);
             chapter9.setCaption(" 9. Steel  Rake  BPC   ");
             chapter9.setDiscription("" );
-            chapter9.setUrl("file:///android_asset/bpc/"+id+".html");
+            chapter9.setUrl("file:///android_asset/bpc/bp"+id+".htm");
             Itemlist.add(chapter9);
 
             id=id+1;
             Item chapter10= new Item(id);
             chapter10.setCaption(" 10. Material train  BPC   ");
             chapter10.setDiscription("" );
-            chapter10.setUrl("file:///android_asset/bpc/"+id+".html");
+            chapter10.setUrl("file:///android_asset/bpc/bp"+id+".htm");
             Itemlist.add(chapter10);
 
 
